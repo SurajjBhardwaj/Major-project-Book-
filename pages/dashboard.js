@@ -1,20 +1,12 @@
-import Head from "next/head"
 import { Typography ,Box } from '@mui/material'
 import Avatar from '@mui/material/Avatar'
 import styles from '../styles/Pages/Sidebar.module.scss'
 import Image from 'next/image'
 
-
-
-function Homepage(){
-    return (
-        <>
-          <Head>
-          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-
-          </Head>
-          <div >
-          <div className={styles.dashboard}>
+function sidebar(){
+    return(
+      <>
+      <div className={styles.dashboard}>
       
       {/* Icons of side bar */}
     <div className={styles.sidebar}>
@@ -160,9 +152,7 @@ function Homepage(){
                   <div className={styles.row3}></div>
           </div>
       </div>
-
-          </div>
-        </>
+      </>
     )
 }
-export default Homepage
+export default sidebar
