@@ -16,7 +16,9 @@
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@mui/icons-material": "^5.11.11",
-    "@mui/material": "^5.11.12",
+    "@mui/joy": "^5.0.0-alpha.71",
+    "@mui/lab": "^5.0.0-alpha.123",
+    "@mui/material": "^5.11.13",
     "@mui/styled-engine-sc": "^5.11.11",
     "@next/font": "13.2.4",
     "eslint": "8.36.0",
@@ -27,7 +29,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.8",
-    "swiper": "^9.1.0"
+    "swiper": "^9.1.1"
   },
   "devDependencies": {
     "sass": "^1.59.2"
