@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+
+ }
+
+body {
+  box-sizing: border-box; 
+
+  @include respond (tab_land){
+    font-size: 56.25%;          //1rem = 9px , 9/16
+  }
+
+  @include respond (tab_port){
+    font-size: 50%;          //1rem = 8px , 8/16
+  }
+
+  @include respond (phone){
+    font-size: 50%;          //1rem = 8px , 8/16
+  }
+
+  @include respond (small_phone){
+    font-size: 43.75%;          //1rem = 7px , 7/16
+  }
+
+  @include respond (big_desktop){
+    font-size: 75%;          //1rem = 12px , 12/16
+  }
+}

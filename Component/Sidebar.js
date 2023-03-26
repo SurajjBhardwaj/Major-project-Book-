@@ -1,8 +1,9 @@
-import styles from "../styles/Pages/global.module.scss"
+import styles from "../styles/component.module.scss"
 
 function Sidebar(){
     return(
         <>
+ 
       <div className={styles.sidebar}>
       
       <div className={styles.icons}>
@@ -40,10 +41,11 @@ function Sidebar(){
       </svg>
 
       </div>
-    </div>
+      </div>
       
       {/* Verticle line */}
-    <div className={styles.verLine}></div>
+       {/* <div className={styles.verLine}></div> */}
+    
         </>
     )
 }

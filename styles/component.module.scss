@@ -1,0 +1,186 @@
+@import './Base/color.scss';
+
+///////////////////////////////////////MAIN---FULLSCREEN////////////////////////////////////////////////////
+/////////
+.book__main{
+    display: grid;
+    background-color: $color-primary;
+    
+    grid-template-columns: 9vw 91vw;
+    grid-template-rows: 100vh;
+    
+    .sidebar{
+        grid-column: 1/span 1;
+        grid-row: 1/span 1;
+       
+    }
+    // .verLine{
+    //     grid-column: 2/span 1;
+    //     grid-row: 1/span 1;
+    // }
+
+}
+
+///////////////////////////////////////SIDEBAR////////////////////////////////////////////////////
+/////////
+.sidebar{
+      
+        height: 94vh;
+        width: 8vw;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        padding-left: 1vw;
+        padding-right: 1vw;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // margin-left: 2.5rem;
+    // border: 2px solid rebeccapurple;
+    border-right: .2rem solid #88888846;
+   
+}
+
+///////////////////////////////////////VERTICLE LINE////////////////////////////////////////////////////
+/////////
+// .verLine{
+//     border-left: .2rem solid #88888846;
+//     margin-top: 3vh;
+//     margin-bottom: 3vh;
+//     margin-left: 2.5rem;
+
+// }
+
+///////////////////////////////////////ICONS////////////////////////////////////////////////////
+/////////
+.icons{
+    
+    width: 5rem;
+    height: 5rem;
+    margin: 1.5rem;
+    
+    // border: 1px solid black;
+    padding: 1rem;
+    border-radius: 55px; 
+    &:hover{
+        background-color:#e36165;
+        color:#fff;
+       
+    }
+
+}
+
+///////////////////////////////////////SEARCH BAR////////////////////////////////////////////////////
+/////////
+.searchbar{
+    // position:absolute;
+    display: flex;
+    flex-direction: rows;
+    align-items: center;
+    justify-items:flex-start;
+    margin-top: 2rem;
+    border-radius: 1.5rem;
+
+    .search__icon{
+        position: relative;
+        left:.5rem;
+        top:.2rem;
+        width: 2rem;
+        height: 2rem;
+
+        
+        &:hover{
+            color: #e36165;
+            scale: 1.1;
+        }
+    }
+    .search__input{
+        background-color: transparent;
+        font-size:1.5rem;
+        height: 1rem;
+        width: 30rem;
+        padding: 1rem;
+        // padding-bottom: 1rem;
+        left:1rem;
+        color: #000000c3;
+        border:none;
+
+        &::placeholder {
+            color: #a2a2a1 
+          }
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    &:hover{
+        box-shadow: 0 1rem 2rem rgba(#000, .1);
+        border-bottom: .3rem solid $color-primary;
+    }
+}
+
+///////////////////////////////////////PROFILE-BAR////////////////////////////////////////////////////
+/////////
+.profilebar{
+    // background-color: orange;
+    // border: 2px solid #000;
+    position: absolute;
+    right:5%;
+    display: flex;
+    align-items: center;
+    justify-items:flex-end;
+    
+    justify-content:space-between;
+    // align-content: space-evenly;
+    max-width: 27%;
+    min-height:inherit;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////MEDIA-Query////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////
+@media(max-width: 825px){
+    .book__main{
+        display: grid;
+        background-color: $color-primary;
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 91vh 9vh;
+
+        // .verLine{
+        //     grid-column: 1/span 1;
+        //     grid-row: 2/span 1;
+        // }
+        .sidebar{
+            grid-column: 1/span 1;
+            grid-row: 2/span 1;
+        }
+    }
+    
+    .sidebar{
+        position: fixed ;
+        // bottom:0%;
+        // left: 0 ;
+        top: 89vh;
+        width: 100vw;
+        // margin-right: 3vw;
+        // margin-left: 3vw;
+        // margin-top: 0;
+        // margin-bottom:-20vw;
+        display:flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-items: center;
+
+        align-content: center;
+        justify-content: center;
+
+        // border: 5px solid red;
+        border-top: .2rem solid #888888cd;
+    }
+    
+   
+}
+

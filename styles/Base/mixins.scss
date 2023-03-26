@@ -1,0 +1,20 @@
+// MEDIA QUERY /////////////////////////////////////////////////////
+// 1em = 16px
+//
+@mixin respond( $breakpoint){
+    @if $breakpoint == small_phone {  //300px
+        @media(max-width : 18.75em){ @content };
+    }
+    @if $breakpoint == phone {       //600px
+        @media(max-width : 37.5em){ @content };
+    } 
+    @if $breakpoint == tab_port {    //600px
+        @media(max-width : 56.25em){ @content };
+    }
+    @if $breakpoint == tab_land {     //1200px
+        @media(max-width : 75em){ @content };
+    }
+    @if $breakpoint == big_desktop {   //1800px
+        @media(min-width : 112.5em){ @content };
+    }
+}
