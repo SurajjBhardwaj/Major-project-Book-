@@ -3,7 +3,16 @@ const data = [
     {
         'src': '/books/book1.png',
         'title': 'Beauty of Beast',
-       'description': '4.21M views',
+        'author':'JK Rowling',
+        'about':'Get ready to uncover the dark scerets and betrayals in the book. A thrilling adventure awaits you',
+        'language':'Standard English (USA & UK)',
+        'description1': '4.21M views',
+        'description2': '4.21M views',
+        'seller-name':'Suraj',
+        'seller-pic':'/profile/surajj.jpg',
+        'seller-about' : "I Love Reading, I am from Jaladhar, Punjab I am non-fiction reader and read 2 books every month. In fiction, I love Mystery.",
+         
+
       },
       {
         'src': '/books/book2.png',

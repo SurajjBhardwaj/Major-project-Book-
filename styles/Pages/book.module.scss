@@ -46,7 +46,7 @@
     .background{
        
       grid-column: 2/ span 11;
-      grid-row: 6/ span 10;
+      grid-row: 5/ span 10;
       background-color: $color-secordary;
       // background-color: blue
     }
@@ -223,7 +223,7 @@
         height: 5rem;
         margin: 1.5rem;
     
-        
+        border: none;
         padding: 1rem;
         border-radius: 55px; 
         background-color:$color-primary;
@@ -436,22 +436,42 @@
 /// 
   @media(max-width :825px){
 
-    .book__main{
-      margin: 0;
-      padding: 0;
-      display: grid;
-      // background-color: $color-primary;
+    // .book__main{
+    //   margin: 0;
+    //   padding: 0;
+    //   display: grid;
+    //   // background-color: $color-primary;
      
-      grid-template-columns: 100vw;
-      grid-template-rows: 90vh 4vh 5vh;
+    //   grid-template-columns: 95vw;
+    //   grid-template-rows: 90vh 4vh 5vh;
     
-      .content{
-        // background-color: pink;
-        grid-column: 1/span 1;
-        grid-row: 1/span 1;
-      }
+    //   .content{
+    //     // background-color: pink;
+    //     grid-column: 1/span 1;
+    //     grid-row: 1/span 1;
+    //   }
       
+    // }
+
+    
+  // }
+
+
+  .book__main{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    // background-color: $color-primary;
+   
+    grid-template-columns: 95vw;
+    grid-template-rows: 91vh 9vh;
+  
+    .detail{
+      grid-column: 1/span 1;
+      grid-row: 1/span 1;
     }
+    
+  }
     
   .card{
 
@@ -495,7 +515,7 @@
           
          //profile
         .box2{ 
-          grid-column: 10/ span 4;
+          grid-column: 10/ span 3;
           grid-row: 1/ span 1;
           // background-color: green;
         }
@@ -804,7 +824,7 @@
 
   
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////MEDIA QUERY-------425px////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////MEDIA QUERY-------600px////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /// 
 @media(max-width : 600px){
@@ -846,7 +866,7 @@
     
    //profile
   .box2{ 
-    grid-column: 10/ span 4;
+    grid-column: 4/ span 2;
     grid-row: 1/ span 1;
     // background-color: green;
   }

@@ -2,24 +2,24 @@
 
 ///////////////////////////////////////MAIN---FULLSCREEN////////////////////////////////////////////////////
 /////////
-.book__main{
-    display: grid;
-    background-color: $color-primary;
+// .book__main{
+//     display: grid;
+//     background-color: $color-primary;
     
-    grid-template-columns: 9vw 91vw;
-    grid-template-rows: 100vh;
+//     grid-template-columns: 9vw 91vw;
+//     grid-template-rows: 100vh;
     
-    .sidebar{
-        grid-column: 1/span 1;
-        grid-row: 1/span 1;
+//     .sidebar{
+//         grid-column: 1/span 1;
+//         grid-row: 1/span 1;
        
-    }
-    // .verLine{
-    //     grid-column: 2/span 1;
-    //     grid-row: 1/span 1;
-    // }
+//     }
+//     // .verLine{
+//     //     grid-column: 2/span 1;
+//     //     grid-row: 1/span 1;
+//     // }
 
-}
+// }
 
 ///////////////////////////////////////SIDEBAR////////////////////////////////////////////////////
 /////////
@@ -42,19 +42,13 @@
    
 }
 
-///////////////////////////////////////VERTICLE LINE////////////////////////////////////////////////////
-/////////
-// .verLine{
-//     border-left: .2rem solid #88888846;
-//     margin-top: 3vh;
-//     margin-bottom: 3vh;
-//     margin-left: 2.5rem;
-
-// }
 
 ///////////////////////////////////////ICONS////////////////////////////////////////////////////
 /////////
 .icons{
+
+    border:none;
+    background-color: transparent;
     
     width: 5rem;
     height: 5rem;
@@ -142,23 +136,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////
 @media(max-width: 825px){
-    .book__main{
-        display: grid;
-        background-color: $color-primary;
-        
-        grid-template-columns: 100%;
-        grid-template-rows: 91vh 9vh;
-
-        // .verLine{
-        //     grid-column: 1/span 1;
-        //     grid-row: 2/span 1;
-        // }
-        .sidebar{
-            grid-column: 1/span 1;
-            grid-row: 2/span 1;
-        }
-    }
-    
+ 
     .sidebar{
         position: fixed ;
         // bottom:0%;
@@ -181,6 +159,27 @@
         border-top: .2rem solid #888888cd;
     }
     
+
+///////////////////////////////////////PROFILE-BAR////////////////////////////////////////////////////
+/////////
+.profilebar{
+    // background-color: orange;
+    // border: 2px solid #000;
+    position: absolute;
+    right:0%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    justify-content:center;
+    align-content: center;
+    max-width: 90%;
+    min-height:inherit;
+
+    .div{
+        flex-grow: -1;
+    }
+}
    
 }
 
