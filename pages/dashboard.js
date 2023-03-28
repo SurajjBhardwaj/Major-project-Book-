@@ -11,10 +11,10 @@ function sidebar(){
     return(
       <>
        <div className={styles.book__main}>
-          {/* <div className={styles.side_bar}> */}
+          
           <Sidebar />
-          {/* </div> */}
-          <div className={styles.main}>
+          
+        <div className={styles.main}>
                     {/* Box 1 */}
                   <div className={styles.box1}>
                      <SearchBar />

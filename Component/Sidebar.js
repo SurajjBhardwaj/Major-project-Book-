@@ -1,4 +1,4 @@
-import styles from "../styles/component.module.scss";
+import styles from "../styles/component/component.module.scss";
 import Link from "next/link";
 
 function Sidebar() {

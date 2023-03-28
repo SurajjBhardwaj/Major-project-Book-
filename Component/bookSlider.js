@@ -1,5 +1,5 @@
 // Import Swiper React components
-import styles from "../styles/bookSlider.module.scss";
+import styles from "../styles/component/bookSlider.module.scss";
 import data from "./bookData/fictionBook";
 import Image from "next/image";
 
@@ -32,7 +32,7 @@ function BookSlider() {
       slidesPerView="auto"
       loop={true}
       autoplay={{
-        delay: 8000,
+        delay: 22000,
       }}
       breakpoints={{
         0: {

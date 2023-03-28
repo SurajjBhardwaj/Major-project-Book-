@@ -1,0 +1,95 @@
+@import '../Base/color.scss';
+
+
+.bookFav{
+
+      display: grid;
+      grid-template-columns: repeat(auto-fill , minmax(26vh, 1fr));
+      grid-template-rows: repeat(2,40vh);
+      grid-gap:clamp(2vh, 6vh ,8vh);
+
+}
+
+
+.card{
+    margin: 2vh;
+    display:flex;
+    flex-direction: column;
+    overflow: visible;
+    // background-color: skyblue;
+    .img{
+        margin-bottom:3vh;
+        width:clamp(20vh, 20vw , 18rem);
+        height: auto;
+        filter:drop-shadow(-2rem 2rem 2rem #000000c4)
+
+        // &:hover{
+        //     scale: 1.2;
+        //     box-shadow: rgba(12, 12, 12, 0.908) 0px 2.5rem 2rem -2rem;
+        // }
+    }
+
+    .bookName{
+        width:clamp(20vh, 20vw , 18rem);
+        font-size: clamp(1.5vh , 2.8vh , 3.8rem);
+        // color:$color-hover;
+
+    }
+
+    .authorName{
+        width:clamp(20vh, 20vw , 18rem);
+        font-size: clamp(1.2vh , 2vh , 2.5vh);
+        color:#000000b5;
+    }
+
+    .bookPrice{
+        width:clamp(20vh, 20vw , 18rem);
+        font-size: clamp(2rem , 1.5vh , 3.5rem);
+        // color:$color-hover;
+    }
+
+
+}
+
+@media(max-width:calc(2*26vh)){
+
+
+.bookFav{
+
+    grid-template-rows: repeat(2,32vh);
+    grid-gap:.1vh;
+}
+    .card{
+        margin: 2vh;
+        display: flex;
+        flex-direction: row;
+        // background-color: greenyellow;
+        .img{
+            // margin:1vh;
+            width:20vh;
+            height: 28vh;
+        }
+    
+        .bookName{
+            font-size: 3vh;
+           
+        }
+    
+        .authorName{
+            font-size: 1.5vh;
+           
+        }
+    
+        .bookPrice{
+            font-size: 2.5vh;
+        }
+    
+    
+    }
+   
+    .detail{
+        display: flex;
+        flex-direction: column;
+        padding: 3em;
+    }
+}

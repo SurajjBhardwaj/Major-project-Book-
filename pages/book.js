@@ -13,6 +13,7 @@ function book() {
   return (
     <div className={styles.book__main}>
       <Sidebar />
+      
       {/* Main Contenent */}
       <div className={styles.detail}>
         {/* box 1 -----search bar*/}

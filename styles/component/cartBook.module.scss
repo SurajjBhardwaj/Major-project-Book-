@@ -1,0 +1,171 @@
+@import '../Base//color.scss';
+
+.bookFav{
+    display: grid;
+    grid-template-columns:100%;
+    grid-template-rows: repeat(6,26vh);
+    // grid-gap:2vh;
+    // background-color: aqua;
+    overflow: scroll;
+}
+
+.card{
+    margin-left:5vh;
+    margin-right: 15vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+    // justify-content:space-between;
+    border-bottom: 1.5px solid #888888b4;
+
+    overflow: visible;
+    // background-color: skyblue;
+
+    .detail{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        justify-items: flex-start;
+        align-items: flex-start;
+        padding: 3em;
+
+        .part1{
+            max-width: 75%;
+            margin-right: 4vh;
+            // background-color: red;
+        }
+        .imgcart{
+            margin-bottom:3vh;
+            
+        }
+    
+        .bookName{
+            width:clamp(20vh, 20vw , 18rem);
+            font-size: clamp(1.5vh , 2.8vh , 3.8rem);
+            // color:$color-hover;
+    
+        }
+    
+        .authorName{
+            width:clamp(20vh, 20vw , 18rem);
+            font-size: clamp(1.2vh , 2vh , 2.5vh);
+            color:#000000b5;
+        }
+    
+        .bookReview{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-items: center;
+            .rating{
+                font-size:2vh;
+                margin-right: 1vh;
+            }
+        }
+        .bookPrice{
+            width:clamp(20vh, 20vw , 18rem);
+            font-size: 3.5vh;
+            font-weight: 400;
+            // color:$color-hover;
+        }
+
+        .btnRemove{
+            border: none;
+            color:$color-hover;
+            font-size: clamp(1vh , 1.8vh , 2vh);
+            background-color: transparent;
+        }
+    
+    }
+
+
+}
+
+///////////////////////////////////////////825px////////////////////////////////////////////////////////// 
+///////////////////////////////////////////825px////////////////////////////////////////////////////////// 
+///////////////////////////////////////////825px////////////////////////////////////////////////////////// 
+
+@media(max-width :825px){
+    .card{
+        margin: 0 18vh;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    
+        justify-content:space-around;
+    
+        overflow: visible;
+        
+        // background-color: skyblue;
+    
+        .detail{
+            margin-left: 4vh;
+            display: flex;
+            flex-direction: column;
+            justify-items: flex-start;
+            align-items: flex-start;
+            padding: 3em;
+            
+            
+            .imgcart{
+                margin-bottom:3vh;
+                
+            }
+        
+            .bookName{
+                width:clamp(20vh, 20vw , 18rem);
+                font-size: clamp(1.5vh , 2.8vh , 3.8rem);
+                // color:$color-hover;
+        
+            }
+        
+            .authorName{
+                margin-top:.5rem;
+                width:clamp(20vh, 20vw , 18rem);
+                font-size: clamp(1.2vh , 2vh , 2.5vh);
+                color:#000000b5;
+            }
+        
+            .bookPrice{
+                margin-top:1rem;
+                text-align: right;
+                width:clamp(20vh, 20vw , 18rem);
+                font-size: clamp(3rem , 1.5vh , 3.5rem);
+                // color:$color-hover;
+            }
+    
+            .btnRemove{
+                margin-top:2rem;
+               
+                border: none;
+                color:$color-hover;
+                font-size: clamp(1vh , 1.8vh , 2vh);
+                background-color: transparent;
+            }
+
+            @media(max-width:425px){
+                
+                padding: 0em;
+            }
+        
+        }
+
+        @media(max-width:425px){
+            margin: 0 4vh;
+            justify-content:space-around;
+        }
+    
+    
+    }    
+}
+
+//////////////////////////////////////////////////////MEDIA-QUERY//////////////////////////////////////////
+/// 
+@media(max-width:425px){
+    .bookReview{
+        display:none;
+    }
+}
