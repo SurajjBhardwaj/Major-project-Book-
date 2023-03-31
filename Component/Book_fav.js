@@ -9,13 +9,14 @@ function Book_fav() {
       {data.map((item) => (
         <div className={styles.card}>
           <Image
+            style={{ filter: "drop-shadow(-2rem 2rem 2rem #000000c4)" }}
             className={styles.img}
             src={item.src}
-            width={150}
-            height={200}
+            width={100}
+            height={150}
           />
           <div className={styles.detail}>
-          <div className={styles.bookName}>{item.title}</div>
+          <div className={styles.bookName} >{item.title}</div>
           <div className={styles.authorName}>{item.author} </div>
           <div className={styles.bookPrice}>{item.price}</div>
           </div>

@@ -1,9 +1,10 @@
 const data = [
     
     {
+        'name':'fire-and-blood',
         'src': '/books/book1.png',
-        'title': 'George R.R Martin',
-        'author':'JK Rowling',
+        'title': 'Fire and Blood',
+        'author':'George R.R Martin',
         'about':'Get ready to uncover the dark scerets and betrayals in the book. A thrilling adventure awaits you',
         'language':'Standard English (USA & UK)',
         'description1': "The Story takes place during Harry's sixth year at Hogwarts School of Witchcraft and wizarry, Where he discovers more about Lord Voldemort's past and prophecy that foretells his defeat Where he discovers more about Lord",

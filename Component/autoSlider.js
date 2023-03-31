@@ -3,7 +3,7 @@
 import 'swiper/css';
 
 // Import Swiper React components
-import styles from '../styles/Pages/index.module.scss'
+import styles from '../styles/Pages/home.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore , {Autoplay} from 'swiper';
 

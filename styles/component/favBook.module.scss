@@ -19,14 +19,11 @@
     // background-color: skyblue;
     .img{
         margin-bottom:3vh;
-        width:clamp(20vh, 20vw , 18rem);
+        width:16vh;
         height: auto;
         filter:drop-shadow(-2rem 2rem 2rem #000000c4)
 
-        // &:hover{
-        //     scale: 1.2;
-        //     box-shadow: rgba(12, 12, 12, 0.908) 0px 2.5rem 2rem -2rem;
-        // }
+        
     }
 
     .bookName{

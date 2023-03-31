@@ -1,11 +1,5 @@
-import Head from "next/head"
-import Sidebar from "../component/Sidebar"
-import styles from '../styles/Pages/index.module.scss'
-
-
-import  AutoSlider from '../Component/autoSlider'
-
-
+import Head from "next/head";
+import home from '@/pages/home';
 function Homepage(){
     return (
         <>
@@ -26,38 +20,8 @@ function Homepage(){
           
 
 
-          <div className={styles.book__main}>
-          <Sidebar className={styles.sidebar}/>
-           
-          {/* main page Contain */}
-
-         
-         <div className={styles.content}>
-
-                      <div className={styles.heading}>
-                       <div className={styles.row1}>
-                        Town of 
-                       </div>
-                       <div className={styles.row2}>
-                       Books
-                       </div>
-                       <div className={styles.row3}>
-                       BOOKS WITHOUT HUSTLE IN YOUR TOWN
-                       </div>
-                       <div className={styles.row4}>
-                         <button className={styles.btn}>Start Reading &#x2197;</button>
-                       </div>
-                       </div> 
-
-
-                       <div className={styles.slider}>
-                          <AutoSlider />
-                       </div>
-         </div>      
-                
-               
-          
-        
+         <div>
+         <home />
          </div>
         </>
     )
