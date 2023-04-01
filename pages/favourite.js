@@ -9,9 +9,9 @@ function favourite() {
   return (
     <>
       <div className={styles.favourite__main}>
-        <div className={styles.side}>
+        
           <Sidebar />
-        </div>
+       
 
         <div className={styles.favourite}>
           {/* Background 1 */}

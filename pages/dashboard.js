@@ -1,11 +1,11 @@
-import { Typography  } from '@mui/material'
-import styles from '../styles/Pages/dashboard.module.scss'
+import { Typography  } from '@mui/material';
+import styles from '../styles/Pages/dashboard.module.scss';
 
-// import BookSlider from '../Component/SliderBOOK'
-import Sidebar from "../component/Sidebar"
-import SearchBar from '../Component/searchBar'
-import Profile from '../Component/Profile'
-import BookSlider from '@/Component/BookSlider'
+
+import Profile from "@/Component/Profile";
+import SearchBar from "@/Component/searchBar";
+import Sidebar from "@/Component/Sidebar";
+import BookSlider from '@/Component/bookSlider';
 
 function sidebar(){
     return(

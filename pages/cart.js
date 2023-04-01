@@ -10,9 +10,9 @@ function cart() {
   return (
     <>
     <div className={styles.cart__main}>
-      <div className={styles.side}>
+      
         <Sidebar />
-      </div>
+      
 
       <div className={styles.cart}>
         {/* Background 1 */}

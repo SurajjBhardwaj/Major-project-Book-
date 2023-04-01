@@ -27,9 +27,9 @@ function UploadForm() {
   return (
     <>
       <div className={styles.upload__main}>
-        <div className={styles.side}>
+        
           <Sidebar />
-        </div>
+        
 
         <div className={styles.upload}>
           {/* search bar */}

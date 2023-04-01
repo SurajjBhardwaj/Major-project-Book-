@@ -7,14 +7,14 @@ function Sidebar() {
     <>
       <div className={styles.bar}>
         <div className={styles.logo}>
-        <Image
-              // style={{"filter":"drop-shadow(5px 5px 5px #000)"}}
-              className={styles.img}
-              src="/logo1.svg"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+          <Image
+            // style={{"filter":"drop-shadow(5px 5px 5px #000)"}}
+            className={styles.img}
+            src="/logo1.svg"
+            alt="logo"
+            width={100}
+            height={100}
+          />
         </div>
         <div className={styles.sidebar}>
           {/* Home page */}
@@ -119,16 +119,27 @@ function Sidebar() {
         </div>
         <div className={styles.footer}>
           <Link href="/footer2">
-          <button className={styles.icons}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.12} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
-</svg>
-          </button>
+            <button className={styles.icons}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.12}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
+            </button>
           </Link>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
