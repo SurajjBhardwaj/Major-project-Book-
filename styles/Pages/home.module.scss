@@ -97,6 +97,10 @@
       grid-column: 2/span 1;
       grid-row: 6/span 1;
       // background-color: yellow;
+
+      .link{
+        text-decoration:none !important;
+      }
     }
   }
 

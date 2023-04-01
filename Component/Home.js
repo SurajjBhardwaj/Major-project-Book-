@@ -2,7 +2,8 @@ import Sidebar from "@/Component/Sidebar";
 import styles from '@/styles/Pages/home.module.scss';
 
 
-import  AutoSlider from '../Component/autoSlider';
+import  AutoSlider from './autoSlider';
+import Link from "next/link";
 
 
 function Home(){
@@ -21,13 +22,19 @@ function Home(){
                         Town of 
                        </div>
                        <div className={styles.row2}>
-                       Books
+                        Books
                        </div>
                        <div className={styles.row3}>
-                       BOOKS WITHOUT HUSTLE IN YOUR TOWN
+                        BOOKS WITHOUT HUSTLE IN YOUR TOWN
                        </div>
                        <div className={styles.row4}>
-                         <button className={styles.btn}>Start Reading &#x2197;</button>
+                       
+                       <Link  style={{"textDecoration":"none"}} href='/signin'>
+                         <button className={styles.btn}> 
+                         Start Reading &#x2197;
+                         </button>
+                       </Link>
+
                        </div>
                        </div> 
 

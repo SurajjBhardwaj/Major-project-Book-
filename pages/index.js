@@ -1,5 +1,6 @@
 import Head from "next/head";
-import home from '@/pages/home';
+import Home from '@/Component/home';
+
 function Homepage(){
     return (
         <>
@@ -21,7 +22,7 @@ function Homepage(){
 
 
          <div>
-         <home />
+             <Home />
          </div>
         </>
     )
