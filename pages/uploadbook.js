@@ -48,6 +48,7 @@ function UploadForm() {
           <div className={styles.background1}>
           <div className={styles.gifupload}>
             <Image
+            alt="svg"
               className={styles.img_upload}
               style={{  transform: "scaleX(-1)" }} 
               src="/img/upload2.svg"

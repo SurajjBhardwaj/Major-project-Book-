@@ -1,6 +1,6 @@
 const data = [
     
-    {
+    {   'id':'1',
         'src': '/books/book1.png',
         'title': 'George R.R Martin',
         'author':'JK Rowling',
@@ -17,6 +17,7 @@ const data = [
       },
 
       {
+        'id':'2',
         'src': '/books/book2.png',
         'title': 'Beauty and The Beast',
         'author':'JK Rowling',
@@ -33,6 +34,7 @@ const data = [
       },
 
       {
+        'id':'3',
         'src': '/books/book3.png',
         'title': 'Chrqnicles Narnia',
         'author':'JK Rowling',
@@ -49,6 +51,7 @@ const data = [
       },
 
       {
+        'id':'4',
         'src': '/books/book4.png',
         'title': 'Dead Pool',
         'author':'JK Rowling',
@@ -64,6 +67,7 @@ const data = [
 
       },
       {
+        'id':'5',
         'src': '/books/book13.png',
         'title': 'The Psychology of money',
         'author':'Morgan Housel',
@@ -80,6 +84,7 @@ const data = [
       },
 
       {
+        'id':'6',
         'src': '/books/book14.png',
         'title': 'The Subtle art of not giving a fu*k',
         'author':'Mark Manson',
@@ -96,6 +101,7 @@ const data = [
       },
 
       {
+        'id':'7',
         'src': '/books/book15.png',
         'title': 'IKIGAI',
         'author':'JK Rowling',

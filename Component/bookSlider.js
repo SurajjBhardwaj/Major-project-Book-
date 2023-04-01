@@ -64,10 +64,11 @@ function BookSlider() {
       }}
     >
       {data.map((item) => (
-        <div>
+        <div key={item.id}>
           <SwiperSlide>
             <div className={styles.card}>
               <Image
+              alt='book_img'
                 className={styles.img}
                 src={item.src}
                 width={200}

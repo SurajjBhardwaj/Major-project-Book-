@@ -29,6 +29,7 @@ function signup() {
       <div className={styles.signup}>
       <div className={styles.gif1}>
             <Image
+            alt="svg"
               className={styles.img_signup1}
               src="/img/floating.svg"
               width={300}
@@ -71,6 +72,7 @@ function signup() {
 
         <div className={styles.gif2}>
             <Image
+            alt="svg"
               className={styles.img_signup2}
               src="/img/tree3.svg"
               width={100}

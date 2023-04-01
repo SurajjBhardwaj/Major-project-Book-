@@ -7,7 +7,7 @@ function Book_fav() {
     <>
       <div className={styles.bookFav}>
       {data.map((item) => (
-        <div className={styles.card}>
+        <div className={styles.card} key={item.id}>
           <Image
             style={{ filter: "drop-shadow(-2rem 2rem 2rem #000000c4)" }}
             className={styles.img}

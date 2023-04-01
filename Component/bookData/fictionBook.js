@@ -1,6 +1,7 @@
 const data = [
     
-    {
+    { 
+      'id':'1',
         'name':'fire-and-blood',
         'src': '/books/book1.png',
         'title': 'Fire and Blood',
@@ -17,6 +18,7 @@ const data = [
       },
 
       {
+        'id':'2',
         'src': '/books/book2.png',
         'title': 'Beauty and The Beast',
         'author':'JK Rowling',
@@ -32,6 +34,7 @@ const data = [
       },
 
       {
+        'id':'3',
         'src': '/books/book3.png',
         'title': 'Chrqnicles Narnia',
         'author':'JK Rowling',
@@ -47,6 +50,7 @@ const data = [
       },
 
       {
+        'id':'4',
         'src': '/books/book4.png',
         'title': 'Dead Pool',
         'author':'JK Rowling',
@@ -62,6 +66,7 @@ const data = [
       },
 
       {
+        'id':'5',
         'src': '/books/book5.png',
         'title': 'Harry Potter and The half-blood Prince',
         'author':'JK Rowling',
@@ -76,6 +81,7 @@ const data = [
 
       },
       {
+        'id':'6',
         'src': '/books/book6.png',
         'title': 'Hello Beautiful Ann Napolitano',
         'author':'JK Rowling',
@@ -90,6 +96,7 @@ const data = [
 
       },
       {
+        'id':'7',
         'src': '/books/book7.png',
         'title': 'Madame Restell',
         'author':'JK Rowling',
@@ -104,6 +111,7 @@ const data = [
 
       },
       {
+        'id':'8',
         'src': '/books/book8.png',
         'title': 'The Golden Spoon',
         'author':'JK Rowling',
@@ -118,6 +126,7 @@ const data = [
 
       },
       {
+        'id':'9',
         'src': '/books/book9.png',
         'title': "The WatchMaker's daughter",
         'author':'JK Rowling',
@@ -132,6 +141,7 @@ const data = [
 
       },
       {
+        'id':'10',
         'src': '/books/book10.png',
         'title': 'It Ends With Us',
         'author':'JK Rowling',

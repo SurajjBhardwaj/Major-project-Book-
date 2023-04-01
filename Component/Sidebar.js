@@ -118,7 +118,7 @@ function Sidebar() {
           </Link>
         </div>
         <div className={styles.footer}>
-          <Link href="/footer2">
+          <Link href="/footer">
             <button className={styles.icons}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

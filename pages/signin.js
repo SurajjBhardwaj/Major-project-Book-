@@ -33,7 +33,7 @@ function signin() {
    <>
     <div className={styles.signin}>
     <div className={styles.gif2} >
-            <Image    className={styles.img_signin2} src='/img/tree3.svg' width={300} height={800} />
+            <Image    className={styles.img_signin2} alt="svg" src='/img/tree3.svg' width={300} height={800} />
         </div>
        
         <div className={styles.signin_main} >
@@ -101,7 +101,7 @@ function signin() {
         </div>
         
         <div className={styles.gif} >
-            <Image    className={styles.img_signin} src='/img/boy2.svg' width={300} height={800} />
+            <Image    className={styles.img_signin} alt="svg" src='/img/boy2.svg' width={300} height={800} />
         </div>
 
        

@@ -1,6 +1,6 @@
 const data = [
     
-    {
+    {   'id':'1',
         'src': '/books/book11.png',
         'title': 'Rich dad and poor dad',
         'author':'Robert T. Kiyosaki',
@@ -16,6 +16,7 @@ const data = [
       },
 
       {
+        'id':'2',
         'src': '/books/book12.png',
         'title': 'Think and grow rich',
         'author':'Napoleon Hill',
@@ -31,6 +32,7 @@ const data = [
       },
 
       {
+        'id':'3',
         'src': '/books/book13.png',
         'title': 'The Psychology of money',
         'author':'Morgan Housel',
@@ -46,6 +48,7 @@ const data = [
       },
 
       {
+        'id':'4',
         'src': '/books/book14.png',
         'title': 'The Subtle art of not giving a fu*k',
         'author':'Mark Manson',
@@ -61,6 +64,7 @@ const data = [
       },
 
       {
+        'id':'5',
         'src': '/books/book15.png',
         'title': 'IKIGAI',
         'author':'JK Rowling',
@@ -75,6 +79,7 @@ const data = [
 
       },
       {
+        'id':'6',
         'src': '/books/book16.png',
         'title': 'The Power of your subconscious mind',
         'author':'JK Rowling',
@@ -89,6 +94,7 @@ const data = [
 
       },
       {
+        'id':'7',
         'src': '/books/book17.png',
         'title': 'Rework',
         'author':'JK Rowling',
@@ -103,6 +109,7 @@ const data = [
 
       },
       {
+        'id':'8',
         'src': '/books/book18.png',
         'title': 'The Courage to be dislike',
         'author':'JK Rowling',
@@ -117,6 +124,7 @@ const data = [
 
       },
       {
+        'id':'9',
         'src': '/books/book19.png',
         'title': 'The Almanack of Naval Ravikant',
         'author':'Naval Ravikant',
@@ -131,6 +139,7 @@ const data = [
 
       },
       {
+        'id':'10',
         'src': '/books/book20.png',
         'title': 'Emotional Intelligence',
         'author':'Brandon bradberry',

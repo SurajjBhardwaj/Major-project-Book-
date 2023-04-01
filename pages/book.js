@@ -33,6 +33,7 @@ function book() {
         <div className={styles.card}>
           <Image
             src="/books/book5.png"
+            alt="book-harry potter"
             width={260}
             height={360}
             className={styles.img}
