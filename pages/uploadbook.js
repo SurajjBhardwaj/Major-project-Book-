@@ -208,7 +208,7 @@ function UploadForm() {
                 />
               </div>
               <button className={styles.btn} type="submit">
-                Submit `&#x2197;`
+                Submit &#x2197;
               </button>
             </form>
           </div>

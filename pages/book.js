@@ -51,7 +51,7 @@ function book() {
             thrilling adventure awaits you
           </div>
           <div className={styles.div4}>
-            <button className={styles.btn}>Start Reading` &#x2197;` </button>
+            <button className={styles.btn}>Start Reading &#x2197; </button>
           </div>
 
           <div className={styles.div5}>
@@ -114,16 +114,16 @@ function book() {
           <div className={styles.sec1}>
             <div className={styles.part1}>Description</div>
             <div className={styles.part2}>
-              The Story takes place during Harry's sixth year at Hogwarts School
+              The Story takes place during Harry&apos;s sixth year at Hogwarts School
               of Witchcraft and wizarry, Where he discovers more about Lord
-              Voldemort's past and prophecy that foretells his defeat Where he
+              Voldemort&apos;s past and prophecy that foretells his defeat Where he
               discovers more about Lord
             </div>
             <div className={styles.part3}>
-              The Story takes place during Harry's sixth year at Hogwarts School
-              of Witchcraft and wizarry, "Where he discovers more about Lord
-              Where he discovers more about Lord Voldemort's past and the
-              prophecy" that foretells his defeat.
+              The Story takes place during Harry&apos;s sixth year at Hogwarts School
+              of Witchcraft and wizarry, &ldquo;Where he discovers more about Lord
+              Where he discovers more about Lord Voldemort&apos;s past and the
+              prophecy&ldquo; that foretells his defeat.
             </div>
             <div className={styles.part4}>
               <Avatar
