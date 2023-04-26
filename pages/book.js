@@ -142,7 +142,7 @@ function book() {
           {/* Section 2 */}
           <div className={styles.sec2}>
             <div className={styles.part1}>Language</div>
-            <div className={styles.part2}>Standard English (USA & UK)</div>
+            <div className={styles.part2}>Standard English USA &amp; UK</div>
             <div className={styles.part3}>
               <div className={styles.rev}>Review</div>
               <Rating

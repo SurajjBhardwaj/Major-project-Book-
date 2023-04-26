@@ -31,7 +31,7 @@ function Home(){
                        
                        <Link  style={{"textDecoration":"none"}} href='/signin'>
                          <button className={styles.btn}> 
-                         Start Reading &#x2197;
+                         Start Reading
                          </button>
                        </Link>
 
