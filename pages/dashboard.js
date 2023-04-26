@@ -35,7 +35,7 @@ function sidebar(){
                    {/* Row 3 */}
                   <div className={styles.row3}>
                   <Typography variant='h2' className={styles.heading1} sx={{fontFamily:"serif" }}>
-                      Fiction Books
+                      Fiction Books 
                   </Typography>
                   <div className={styles.card1}>
                     <BookSlider />

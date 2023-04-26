@@ -26,7 +26,7 @@ function footerpopup() {
               Help
             </Link>
             <Link className={styles.link} href="#">
-              Privacy Police
+              Privacy Policy
             </Link>
             <Link className={styles.link} href="#">
               Socials
