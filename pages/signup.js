@@ -3,7 +3,7 @@ import styles from "../styles/Pages/signup.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-function signup() {
+function Signup() {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -85,4 +85,4 @@ function signup() {
   );
 }
 
-export default signup
+export default Signup

@@ -24,9 +24,9 @@ function AutoSlider(){
     >
      
     
-      <SwiperSlide className={styles.Slider}><Image className={styles.gif} src='/images/gif6.svg'  alt='gif1' width={600} height={900} style={{  transform: "scaleX(-1)" }}  /></SwiperSlide>
-      <SwiperSlide className={styles.Slider}><Image  className={styles.gif} src='/images/gif5.svg' alt='gif2' width={600} height={900} style={{marginLeft:"1vw"}} /></SwiperSlide>
-      <SwiperSlide className={styles.Slider}><Image  className={styles.gif} src='/images/gif4.svg' alt='gif3' width={600} height={900} /></SwiperSlide> 
+      <SwiperSlide className={styles.Slider}><Image  className={styles.gif} src='/images/gif6.svg'  alt='gif1' width={600} height={900} style={{  transform: "scaleX(-1)" }}  /></SwiperSlide>
+      <SwiperSlide className={styles.Slider}><Image   className={styles.gif} src='/images/gif5.svg' alt='gif2' width={600} height={900} style={{marginLeft:"1vw"}} /></SwiperSlide>
+      <SwiperSlide className={styles.Slider}><Image   className={styles.gif} src='/images/gif4.svg' alt='gif3' width={600} height={900} /></SwiperSlide> 
     
 
      

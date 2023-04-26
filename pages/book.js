@@ -1,4 +1,4 @@
-import { Button, Typography } from "@mui/material";
+// import { Button, Typography } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import styles from "../styles/Pages/book.module.scss";
 import Image from "next/image";
@@ -51,7 +51,7 @@ function book() {
             thrilling adventure awaits you
           </div>
           <div className={styles.div4}>
-            <button className={styles.btn}>Start Reading &#x2197; </button>
+            <button className={styles.btn}>Start Reading` &#x2197;` </button>
           </div>
 
           <div className={styles.div5}>

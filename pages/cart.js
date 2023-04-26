@@ -42,7 +42,7 @@ function cart() {
           <div className={styles.totalprice}>
             <div className={styles.total}>Price:</div>
             <div className={styles.price}>₹999</div>
-            <button className={styles.btnPrice}>CheckOut &#x2197;</button>
+            <button className={styles.btnPrice}>CheckOut `&#x2197;`</button>
           </div>
         </div>
       </div>

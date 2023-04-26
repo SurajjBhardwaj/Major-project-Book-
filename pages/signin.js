@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styles from '../styles/Pages/signin.module.scss';
 import Image from 'next/image';
 
-function signin() {
+function Signin() {
   const [formData, setFormData] = useState({
     name: '',
     gender: '',
@@ -110,4 +110,4 @@ function signin() {
   );
 }
 
-export default signin
+export default Signin
