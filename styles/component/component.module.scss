@@ -150,9 +150,9 @@
         display: flex;
         flex-direction: row;
         align-items: stretch;
-        justify-items: center;
+        // justify-items: center;
 
-        align-content: center;
+        // align-content: center;
         justify-content: center;
     
         border-top: .2rem solid #88888846;
@@ -172,10 +172,13 @@
     }
      
     .icons{
-    position:relative;
-        // top: .1rem;
-    }
+        position: relative;
+        padding-top: 0.5rem;
+    }    
  
+    .footer{
+        display: none;
+    }
     .sidebar{
         // position: fixed ;
         // top: 92vh;
