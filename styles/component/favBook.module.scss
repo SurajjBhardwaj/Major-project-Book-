@@ -2,10 +2,11 @@
 
 
 .bookFav{
+       
       height: 100%;
       display: grid;
       grid-template-columns: repeat(auto-fill , minmax(26vh, 1fr));
-      grid-template-rows: repeat(2,40vh);
+      grid-template-rows: repeat(2,38vh);
       grid-gap:clamp(2vh, 6vh ,8vh);
 
       background: red;
