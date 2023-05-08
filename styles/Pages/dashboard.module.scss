@@ -154,10 +154,12 @@
         margin-bottom: 10rem;
         padding: 0;
         display: grid;
+        overflow-y: scroll;
+
         // background-color: $color-primary;
         // background-color: aqua;
         grid-template-columns:100vw ;
-        grid-template-rows: 91vh 9vh;
+        grid-template-rows:100vh;
       
         .main{
         //   background-color: plum;
