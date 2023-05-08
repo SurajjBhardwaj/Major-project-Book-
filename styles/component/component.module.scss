@@ -144,7 +144,7 @@
         z-index: 100;
         bottom: 1rem;
         width: 100vw;
-        height: 8rem;
+        height: 7rem;
         margin: 0;
         padding: 0;
         display: flex;
@@ -172,7 +172,8 @@
     }
      
     .icons{
-        // position: absolute;
+    position:relative;
+        // top: .1rem;
     }
  
     .sidebar{
@@ -180,8 +181,7 @@
         // top: 92vh;
         // border-radius: 999rem;
         // background-color: #e36165;
-        position: absolute;
-
+        
         margin: 0;
         padding: 0;
 

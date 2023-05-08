@@ -157,9 +157,10 @@
   }
 
 .slider{
+  //  border: 1px blue;
   display: flex;
   align-items: end;
-
+  
 }
 
 .gif{
@@ -211,6 +212,7 @@
 
   }
   .slider{
+     
       grid-column: 1/span 1;
       grid-row: 2/span 1;
       background-color:$color-secordary;
@@ -332,7 +334,7 @@
     @media(max-width :475px){
 
      margin-top: 15% !important;
-     margin-bottom: 15% !important;
+     margin-bottom: 30% !important;
      margin-left: 20% !important;
      margin-right: 20% !important;
 
