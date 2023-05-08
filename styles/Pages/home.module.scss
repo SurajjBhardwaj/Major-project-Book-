@@ -28,9 +28,19 @@
 
     }
     .slider{
-        grid-column: 2/span 1;
-        grid-row: 1/span 1;
-        background-color:$color-primary;
+      grid-column: 2/span 1;
+      grid-row: 1/span 1;
+      background-color:$color-primary;
+      // background-color: red;  
+      // position: absolute;
+      
+      // top:40%;
+      // left:40%;
+      // transform: translate(-50% , -50%);
+       align-items: center;
+          justify-content: center;
+       
+       
     }
 }
 

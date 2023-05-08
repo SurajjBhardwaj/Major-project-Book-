@@ -39,9 +39,9 @@ function Home(){
                        </div> 
 
 
-                       <div className={styles.slider}>
-                          <AutoSlider />
-                       </div>
+                       {/* <div className={styles.slider}> */}
+                          <AutoSlider  className={styles.slider}/>
+                       {/* </div> */}
          </div>      
                 
                

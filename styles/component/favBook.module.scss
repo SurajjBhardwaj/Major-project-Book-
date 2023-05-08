@@ -2,12 +2,13 @@
 
 
 .bookFav{
-
+      height: 100%;
       display: grid;
       grid-template-columns: repeat(auto-fill , minmax(26vh, 1fr));
       grid-template-rows: repeat(2,40vh);
       grid-gap:clamp(2vh, 6vh ,8vh);
 
+      background: red;
 }
 
 
@@ -55,16 +56,33 @@
 
     grid-template-rows: repeat(2,32vh);
     grid-gap:.1vh;
+    
+    overflow-y: scroll;
+    @media(max-width:425px){
+        
+
+        grid-template-rows: repeat(2,26vh);
+        grid-gap:.1rem;
+        
+        
+      
+    }
+
 }
     .card{
         margin: 2vh;
         display: flex;
         flex-direction: row;
-        // background-color: greenyellow;
+        background-color: greenyellow;
         .img{
             // margin:1vh;
             width:20vh;
             height: 28vh;
+
+            @media (max-width:425px) {
+                width:16vh;
+                height: 22vh;
+            }
         }
     
         .bookName{
