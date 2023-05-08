@@ -4,6 +4,8 @@
 .bar{
     // margin: 0;
     // padding: 0;
+    position: relative;
+    //  background-color: #e36165;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +45,7 @@
 ///////////////////////////////////////ICONS////////////////////////////////////////////////////
 /////////
 .icons{
-
+    
     border:none;
     background-color: transparent;
     
@@ -135,8 +137,13 @@
 @media(max-width: 825px){
 
     .bar{
-        position: relative;
+        border: 1px solid red;
+        border-radius: 99rem;
+        background-color: #e36165;
+        position: absolute;
+        bottom: 5rem;
         width: 100vw;
+        height: 8rem;
         margin: 0;
         padding: 0;
         display: flex;
@@ -162,12 +169,16 @@
             right:1vw;
         }
     }
-    
+     
+    .icons{
+        // position: absolute;
+    }
  
     .sidebar{
         // position: fixed ;
         // top: 92vh;
-
+        // border-radius: 999rem;
+        // background-color: #e36165;
         position: absolute;
 
         margin: 0;

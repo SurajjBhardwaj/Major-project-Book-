@@ -10,10 +10,10 @@ function Sidebar() {
           <Image
             // style={{"filter":"drop-shadow(5px 5px 5px #000)"}}
             className={styles.img}
-            src="/logo1.svg"
+            src="/logo3.png"
             alt="logo"
-            width={100}
-            height={100}
+            width={70}
+            height={70}
           />
         </div>
         <div className={styles.sidebar}>
