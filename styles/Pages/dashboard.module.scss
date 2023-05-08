@@ -151,17 +151,18 @@
 
     .book__main{
         margin: 0;
-        margin-bottom: 10rem;
+        
         padding: 0;
         display: grid;
         overflow-y: scroll;
 
         // background-color: $color-primary;
         // background-color: aqua;
-        grid-template-columns:100vw ;
-        grid-template-rows:100vh;
+        grid-template-columns:100%;
+        grid-template-rows:100%;
       
         .main{
+        //     padding: 2rem;
         //   background-color: plum;
           grid-column: 1/span 1;
           grid-row: 1/span 1;
@@ -172,6 +173,7 @@
     
     .main{
         // margin: 4vh;
+        padding-bottom: 4rem;
         display: grid;
         grid-template-columns: 5vw repeat(5,18vw) 5vw;
         grid-template-rows: 5vh 82vh 5vh;
