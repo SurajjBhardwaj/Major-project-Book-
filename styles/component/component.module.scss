@@ -135,6 +135,7 @@
 @media(max-width: 825px){
 
     .bar{
+        position: relative;
         width: 100vw;
         margin: 0;
         padding: 0;
@@ -164,10 +165,10 @@
     
  
     .sidebar{
-        position: fixed ;
-        top: 92vh;
+        // position: fixed ;
+        // top: 92vh;
 
-        
+        position: absolute;
 
         margin: 0;
         padding: 0;
