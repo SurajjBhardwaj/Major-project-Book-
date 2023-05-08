@@ -276,8 +276,9 @@
         display: none;
       }
       .btnPrice {
-        background-color: rgb(51, 153, 114);
+        background-color: rgb(153, 51, 122);
        position: absolute;
+       z-index:10;
         top: 91%;
         grid-column: 1 / span 1;
         grid-row: 1 / span 1;
