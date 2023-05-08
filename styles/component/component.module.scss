@@ -141,7 +141,8 @@
         border-radius: 99rem;
         background-color: #e36165;
         position: absolute;
-        bottom: 5rem;
+        z-index: 100;
+        bottom: 1rem;
         width: 100vw;
         height: 8rem;
         margin: 0;
