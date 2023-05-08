@@ -139,7 +139,7 @@
     .bar{
         // border: 1px solid red;
         // border-radius: 99rem;
-        // background-color: #e36165;
+        background-color:rgba($color-primary ,.9);
         position: fixed;
         z-index: 100;
         bottom: 1rem;
@@ -173,7 +173,7 @@
      
     .icons{
         position: relative;
-        padding-top: 0.5rem;
+        // padding-top: 0.5rem;
     }    
  
     .footer{

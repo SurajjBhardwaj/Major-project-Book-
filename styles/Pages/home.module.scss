@@ -187,7 +187,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  // background-color: $color-primary;
+  background-color: $color-primary;
  
   grid-template-columns: 95vw;
   grid-template-rows: 91vh 9vh;
@@ -215,7 +215,7 @@
      
       grid-column: 1/span 1;
       grid-row: 2/span 1;
-      background-color:$color-secordary;
+      background-color:$color-primary;
   }
 }
 
