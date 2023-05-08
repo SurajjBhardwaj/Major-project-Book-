@@ -94,11 +94,12 @@
       padding: 0;
       display: grid;
       background-color: $color-primary;
-
+      
      
       grid-template-columns: 100vw;
       grid-template-rows: 91vh 9vh;
-    
+      // overflow-y: scroll;
+
       .favourite{
         grid-column: 1/span 1;
         grid-row: 1/span 1;
