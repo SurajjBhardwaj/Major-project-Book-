@@ -1,6 +1,10 @@
+
+
 import { useState } from 'react';
 import styles from '../styles/Pages/signin.module.scss';
 import Image from 'next/image';
+import axios from 'axios';
+
 
 function Signin() {
   const [formData, setFormData] = useState({
@@ -16,9 +20,17 @@ function Signin() {
     password: ''
   });
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log(formData);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('/api/adduser', formData);
+      console.log("working perfectly"); // Optional: log the response from the server
+      // Optionally, you can perform any additional actions after the successful request, such as showing a success message or redirecting the user.
+    } catch (error) {
+      console.error("found error ",error);
+      // Optionally, handle any errors that occur during the request.
+    }
+    console.log("here is working" + formData);
   }
 
   const handleChange = (event) => {
@@ -41,7 +53,7 @@ function Signin() {
       <form onSubmit={handleSubmit}>
         <label className={styles.label}>
           Name:
-          <input className={styles.input}  type="text" name="name" value={formData.name} onChange={handleChange} />
+          <input className={styles.input}  type="text" name="name" value={formData.name} onChange={handleChange} required />
         </label>
         {/* <br />
         <label className={styles.label}>
@@ -56,18 +68,18 @@ function Signin() {
         <br />
         <label className={styles.label}>
           Age:
-          <input className={styles.input} type="text" name="age" value={formData.age} onChange={handleChange} />
+          <input className={styles.input} type="text" name="age" value={formData.age} onChange={handleChange} required />
         </label>
         <br />
         
         <label className={styles.label}>
           Email:
-          <input className={styles.input} type="email" name="email" value={formData.email} onChange={handleChange} />
+          <input className={styles.input} type="email" name="email" value={formData.email} onChange={handleChange} required />
         </label>
         <br />
         <label className={styles.label}>
           Phone Number:
-          <input className={styles.input} type="tel" name="phone" value={formData.phone} onChange={handleChange} />
+          <input className={styles.input} type="tel" name="phone" value={formData.phone} onChange={handleChange} required />
         </label>
         <br />
         <label className={styles.label}>
@@ -92,7 +104,7 @@ function Signin() {
         <br />
         <label className={styles.label}>
           Password:
-          <input className={styles.input} type="password" name="password" value={formData.password} onChange={handleChange} />
+          <input className={styles.input} type="password" name="password" alue={formData.password} onChange={handleChange} required />
         </label>
         <br />
         

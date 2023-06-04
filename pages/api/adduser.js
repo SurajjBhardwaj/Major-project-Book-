@@ -1,12 +1,11 @@
 //next js router 
-
 import user from "../../models/usermodel";
-// import connectDB from "@/middleware/mongoose";
 import connectDb from "../../middleware/mongoose"
 
 const handler = async (req,res)=>{
-
     if(req.method == 'POST'){
+
+        console.log(req.body);
 
         let p = new user({
             name:req.body.name,
@@ -19,9 +18,11 @@ const handler = async (req,res)=>{
             password:req.body.password
         });
 
-       await p.save();
-       try {
-        res.status(200).json({sucess:"Data is saved properly"});
+        try {
+           await p.save();
+           console.log("data saved in database");
+
+           res.status(200).json({success:"data saved"});
        } catch (error) {
         res.status(404).json({error:"data can not be saved"});
        }
