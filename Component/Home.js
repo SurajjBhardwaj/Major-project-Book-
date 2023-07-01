@@ -1,5 +1,6 @@
 import Sidebar from "@/Component/Sidebar";
 import styles from '@/styles/Pages/home.module.scss';
+import Image from "next/image";
 
 
 import  AutoSlider from './autoSlider';
@@ -18,7 +19,7 @@ function Home(){
          <div className={styles.content}>
 
                       <div className={styles.heading}>
-                       <div className={styles.row1}>
+                       {/* <div className={styles.row1}>
                         Town of 
                        </div>
                        <div className={styles.row2}>
@@ -26,7 +27,15 @@ function Home(){
                        </div>
                        <div className={styles.row3}>
                         BOOKS WITHOUT HUSTLE IN YOUR TOWN
-                       </div>
+                       </div> */}
+                       <Image
+            
+            className={styles.heading__img}
+            src="/twn.svg"
+            alt="logo"
+            width={700}
+            height={700}
+          />
                        <div className={styles.row4}>
                        
                        <Link  style={{"textDecoration":"none"}} href='/signin'>
