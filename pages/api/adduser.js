@@ -30,10 +30,12 @@ const handler = async (req, res) => {
           password,
         });
 
-      await newUser.save();
+     const saveduser = await newUser.save();
+
+      
       console.log("Data saved in the database");
 
-      return res.status(200).json({ success: "Data saved successfully" });
+      return res.status(200).json({ success: "Data saved successfully", saveduser });
     } catch (error) {
       console.error("Error saving data:", error);
 
