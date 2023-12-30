@@ -1,7 +1,24 @@
+"use client"
 import Head from "next/head";
 import Home from '../Component/Home';
+import { useEffect, useState } from "react";
+import Signup from "./signup";
+import Signin from "./signin";
 
-function Homepage(){
+function Homepage() {
+    const [user, setUser] = useState(null);
+    
+    useEffect(() => {
+        
+        const value = localStorage.getItem("user");
+        setUser(JSON.parse(value));
+
+    }, []);
+
+    
+   
+
+
     return (
         <>
           <Head>
@@ -21,8 +38,9 @@ function Homepage(){
           
 
 
-         <div>
-             <Home />
+            <div>
+                {user? <Home/> : <Signin/>}
+             {/* <Home /> */}
          </div>
         </>
     )
